@@ -1,0 +1,151 @@
+div.options {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transform-origin: 50% 50%;
+
+}
+
+p.price {
+    font-size: 30px;
+}
+
+
+button.add:disabled {
+    background-color: #222;
+    transform: scale(0.8)
+}
+
+button.add {
+    font-size: 30px;
+    padding: 12px 17px;
+    display: block;
+    letter-spacing: 1px;
+    margin: 5px 0 5px 18px;
+    background-color: #0C6EFA;
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+p.ingredients {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 0;
+    transform: translateX(-20px)
+}
+
+
+div.buttons {
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    margin-left: 30px;
+    transform: translateX(-20px)
+}
+
+
+
+div.buttons button {
+    flex-basis: 45%;
+    height: 40px;
+    margin: 4px;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: royalblue;
+    border: 1px solid white;
+    color: white;
+}
+
+div.buttons button:disabled {
+    background-color: rgb(187, 187, 187);
+
+}
+
+
+@media (max-width:1023px) {
+    p.ingredients {
+        font-size: 15px;
+    }
+
+    div.buttons {
+        width: 140px;
+        top: 31%;
+        left: 25%;
+    }
+
+    div.buttons button {
+        flex-basis: 40%;
+        height: 30px;
+        font-size: 15px;
+    }
+
+    button.add {
+        font-size: 15px;
+        margin-left: 30px;
+    }
+
+    p.price {
+        font-size: 15px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-height:770px) and (max-width:2000px) {
+    p.price {
+        font-size: 15px;
+    }
+
+    button.add {
+        font-size: 15px;
+    }
+
+    p.ingredients {
+        font-size: 15px;
+        padding: 5px 0;
+    }
+
+    div.buttons {
+        width: 140px;
+        top: 37%;
+        left: 25%;
+    }
+
+    div.buttons button {
+        flex-basis: 40%;
+        height: 23px;
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:500px) {
+
+
+    p.price {
+        width: 100%;
+    }
+
+
+
+
+}
+
+@media (max-width:335px) {
+    button.add {
+        width: 100%;
+    }
+
+    p.price {
+        font-size: 13px;
+        width: 150%;
+    }
+
+    div.buttons {
+        top: 33%;
+    }
+}
