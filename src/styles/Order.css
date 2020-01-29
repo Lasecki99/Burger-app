@@ -30,14 +30,11 @@ select {
 
 select option {
     font-weight: bold;
-
 }
 
 select:focus {
     background-color: #FFE683;
 }
-
-
 
 input:focus {
     background-color: #FFE683;

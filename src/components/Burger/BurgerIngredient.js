@@ -5,11 +5,6 @@ import classes from '../../styles/Burger/BurgerIngredient.module.css';
 
 class BurgerIngredient extends Component {
 
-
-
-
-
-
     render() {
         let ingredient;
 
@@ -39,12 +34,9 @@ class BurgerIngredient extends Component {
                 break;
             default:
                 ingredient = null;
-
         }
         return ingredient
     }
-
-
 }
 
 export default BurgerIngredient

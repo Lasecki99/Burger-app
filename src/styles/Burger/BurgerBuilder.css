@@ -10,7 +10,6 @@ p.price {
     font-size: 30px;
 }
 
-
 button.add:disabled {
     background-color: #222;
     transform: scale(0.8)
@@ -36,7 +35,6 @@ p.ingredients {
     transform: translateX(-20px)
 }
 
-
 div.buttons {
     position: absolute;
     top: 34%;
@@ -47,8 +45,6 @@ div.buttons {
     margin-left: 30px;
     transform: translateX(-20px)
 }
-
-
 
 div.buttons button {
     flex-basis: 45%;
@@ -65,7 +61,6 @@ div.buttons button:disabled {
     background-color: rgb(187, 187, 187);
 
 }
-
 
 @media (max-width:1023px) {
     p.ingredients {
@@ -125,14 +120,9 @@ div.buttons button:disabled {
 
 @media (max-width:500px) {
 
-
     p.price {
         width: 100%;
     }
-
-
-
-
 }
 
 @media (max-width:335px) {
